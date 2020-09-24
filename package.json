@@ -1,0 +1,34 @@
+{
+  "name": "twitter-api",
+  "version": "1.0.0",
+  "description": "Twitter API Usage",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "latest",
+    "body-parser": "latest",
+    "circular-json": "latest",
+    "express": "latest",
+    "express-handlebars": "latest",
+    "express-session": "latest",
+    "passport": "latest",
+    "passport-twitter": "latest"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoranyun/twitter-api.git"
+  },
+  "keywords": [
+    "twitter",
+    "api",
+    "server"
+  ],
+  "author": "Victor Yun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victoranyun/twitter-api/issues"
+  },
+  "homepage": "https://github.com/victoranyun/twitter-api#readme"
+}
